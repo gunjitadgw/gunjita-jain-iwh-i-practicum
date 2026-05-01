@@ -1,0 +1,15 @@
+h1 Students Data
+
+a(href="/update-cobj") Add New Student
+
+table(border="1")
+  tr
+    th Name
+    th Course
+    th Age
+
+  each item in data
+    tr
+      td= item.properties.name
+      td= item.properties.course
+      td= item.properties.age
